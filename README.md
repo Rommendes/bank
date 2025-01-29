@@ -1,9 +1,4 @@
-<p align="center"> <img src=""> </p>
 
-<hr>
-
-<p align="center"> <img src="" alt=""> </p>
-<p align="center">Formulário de criação de contas para o banco virtual MoniBank.</p>
 
 ## Tecnologias utilizadas durante o curso
 * JavaScript
