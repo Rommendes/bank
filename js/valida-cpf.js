@@ -2,7 +2,7 @@ export default function ehUmCPF(campo) {
     const cpf = campo.value.replace(/\.|-/g, "");
     validaNumerosRepetidos(cpf);
 
-    console.log(validaNumerosRepetidos(cpf));
+    console.log(`Isso é um ${cpf}`);
 }
 
 function validaNumerosRepetidos(cpf) {
@@ -20,4 +20,5 @@ function validaNumerosRepetidos(cpf) {
     ]
 
     return numerosRepetidos.includes(cpf)
+   
 }
