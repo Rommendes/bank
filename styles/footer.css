@@ -42,11 +42,30 @@
 
 @media screen and (max-width: 798px) {
     .rodape {
-        display: block;
+        display: grid;
+        grid: auto-flow / repeat(3, 200px);
         padding: 1em;
+        font-family: 10px;
     }
 
     .redes-sociais__lista {
-        display: block;
+        display: flex;
+        flex-direction: row;
+       
+       
+    }
+    .rodape__titulo{
+         padding-top: 50px;
+    }
+    .rodape__lista{
+        align-items: center;
+ 
+    }
+    .rodape__logo {
+        margin-top: 1.3em;
+        font-size: 28px;
+        line-height: 36px;
+        padding: auto;
+        
     }
 }

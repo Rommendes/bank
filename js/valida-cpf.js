@@ -22,7 +22,10 @@ function validaNumerosRepetidos(cpf){
 
     return numerosRepetidos.includes(cpf);
 }
+
+//VALIDAÇÃO DO CPF
 //conforme a posição
+
 function validaPrimeiroDigito(cpf){
     let soma = 0;
     let multiplicador = 10;

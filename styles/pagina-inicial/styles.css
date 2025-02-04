@@ -30,11 +30,13 @@
     margin: 1em 0;
 }
 
+
 .lista-servicos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 4em 0;
+  
 }
 
 .item-servicos__titulo {
@@ -226,5 +228,9 @@
     width: 80%;
     height: auto;
     
+}
+.rodape__logo{
+    width: 400Px;
+    padding-left: 225px;
 }
 }
